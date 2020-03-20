@@ -16,10 +16,12 @@ a list of apps.
 2. While running the script, please read the line saying 
 ```
 The following packages will be REMOVED:
-  lightning thunderbird ... ...
+  cinnamon-desktop-environment task-cinnamon-desktop lightning thunderbird ... ...
 ```
 If you see something suspecious, such as `cinnamon-desktop-environment`, or equivalent Gnome, 
-KDE, XFCE packages, donot run it as your desktop environment may crash.
+KDE, XFCE packages, donot run it as your desktop environment will crash due to removal of these 
+important packages.
+
 # usage
 Download the repository. There is a file named `debloat.sh`, simply run it.
 ```
@@ -45,4 +47,9 @@ The following packages will be removed:
 * swell-foop 
 * hexchat 
 * gnome-nibbles
-
+* imagemagick
+* goldendict
+* kasumi (some weirdo dictionary)
+* xiterm+thai
+* xterm
+* mlterm
